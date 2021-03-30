@@ -13,16 +13,13 @@ a {
 }
 .header-ttl {
   display: flex;
-	width: 64px;
-	height: 69px;
+	width: 30px;
+  height: 40px;
 	font-size: 0;
-	background: url(../img/estra_logo.png);
-  background-repeat: auto no-repeat;
 }
 
 .header-nav-list {
   display: flex;
-  font-weight: bold;
 }
 .header-nav-item:not(:last-child) {
   margin-right: 30px;
