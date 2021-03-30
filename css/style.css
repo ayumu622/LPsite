@@ -12,11 +12,14 @@ a {
   color: gray;
 }
 .header-ttl {
-  background: url(../img/estra_logo.png);
-  background-repeat: no-repeat;
-  font-size: 24px;
-  width: 80px;
+  display: flex;
+	width: 64px;
+	height: 69px;
+	font-size: 0;
+	background: url(../img/estra_logo.png);
+  background-repeat: auto no-repeat;
 }
+
 .header-nav-list {
   display: flex;
   font-weight: bold;
