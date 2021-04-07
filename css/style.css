@@ -13,9 +13,11 @@ a {
 }
 .header-ttl {
   display: flex;
-
 }
-
+.img {
+  width: 150px;
+  height: 50px;
+}
 .header-nav-list {
   display: flex;
 }
@@ -398,6 +400,8 @@ img {
   grid-column: 1/2;
   grid-row: 1/2;
   background-image: url(../img/recruit.png);
+  background-repeat: no-repeat;
+  background-size: 860px 350px;
 }
 .text22 {
   grid-column: 1/2;
@@ -412,6 +416,8 @@ img {
   grid-column: 2/3;
   grid-row: 1/2;
   background-image: url(../img/interview.png);
+  background-repeat: no-repeat;
+  background-size: 860px 350px;
 }
 .text23 {
   grid-column: 2/3;
